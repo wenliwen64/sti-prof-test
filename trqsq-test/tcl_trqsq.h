@@ -19,7 +19,7 @@ namespace trqsq
     /// See original documentation of CERNLIB package
     /// [F112](https://cern-tex.web.cern.ch/cern-tex/shortwrupsdir/f112/top.html)
 
-    double *trqsq(const double *q, const double *s, double *r__, int m)
+    double *tcl_trqsq(const double *q, const double *s, double *r__, int m)
     {
 	int indq, inds, imax, i__, j, k, l;
 	int iq, ir, is, iqq;
