@@ -1,5 +1,4 @@
 build:
-	g++ -std=c++11 -I /home/vagrant/eigen-eigen-5a0156e40feb main.cxx -o test-qsq
+	g++ -O2 -std=c++11 -I /home/vagrant/eigen-eigen-5a0156e40feb main.cxx -o test-trqsq
 run_test:
-	./test-qsq eigen
-	./test-qsq trqsq
+	./run_test.sh

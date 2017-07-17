@@ -1,2 +1,4 @@
 *.swp
 trqsq-test/test-qsq
+trqsq-test/test-trqsq
+build/
